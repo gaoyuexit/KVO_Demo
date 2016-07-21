@@ -18,6 +18,9 @@
     NSObject *observer = objc_getAssociatedObject(self, @"observer");
     [observer observeValueForKeyPath:@"age" ofObject:nil change:nil context:nil];
     
+    
+    
+    
     /**
      *  手动模式的KVO
      
